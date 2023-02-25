@@ -22,3 +22,12 @@ jobs:
 
       - name: Checking Code Formatting 🎩👔👞
         run: npm run format:check
+
+      - name: Checking Linting 😇
+        run: npm run lint:check
+
+      - name: Checking typescript No Emit ⚙️
+        run: npm run tsc:check
+
+      - name: Run Tests 🥼🧪
+        run: npm run test:coverage

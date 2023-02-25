@@ -12,9 +12,10 @@
     "format:check": "prettier . --check",
     "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx,json}\" --fix --max-warnings=0",
     "lint:check": "eslint \"./src/**/*.{js,jsx,ts,tsx,json}\" --max-warnings=0",
-    "test": "vitest",
+    "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "test:watch": "vitest run --watch"
+    "test:watch": "vitest",
+    "tsc:check": "tsc --noEmit"
   },
   "dependencies": {
     "react": "^18.2.0",
