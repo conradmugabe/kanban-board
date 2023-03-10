@@ -1,5 +1,5 @@
-import { z } from 'zod';
-import { HasID } from './BaseEntity';
+import { z } from "zod";
+import { HasID } from "./BaseEntity";
 
 const User = HasID.merge(
   z.object({
